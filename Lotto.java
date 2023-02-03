@@ -13,8 +13,11 @@ public class Lotto {
         //Arrays.fill(numbers,0);
         Random randNum=new Random();
         int rm;
+        //arvotaan 7 numeroa
         for(int x=1; x<=7; x++){
             rm=randNum.nextInt(40)+1;
+            //jos taulukossa on saadun numeron kohdalla 1
+            //arvotaan uudestaan
             while(numbers[rm]==1){
                 rm=randNum.nextInt(40)+1; 
             }
