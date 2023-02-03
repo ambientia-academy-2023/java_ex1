@@ -24,3 +24,10 @@ toteuttaa abstraktit metodit.
 
 Luokka, jonka kaikki metodit ovat automaattisesti Abstrakteja. <br>
 kts. IAnimal.java ja Horse.java
+
+## Moniperintä?
+Javassa luokka voi periä vain yhden luokan ja implementoida yhden interface luokan.
+Esimerkiksi <br>
+<pre>
+public class Horse extends Animal implements IAnimal
+</pre>

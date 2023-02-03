@@ -13,8 +13,10 @@ public class UseAnimals {
 
         Horse objectHorse=new Horse();
         objectHorse.sayName();
+
         int test=objectHorse.sayAge("Hepo");
         System.out.println("Hevosen ikä = "+test);
+        objectHorse.sayHello();
 
       }  
 }

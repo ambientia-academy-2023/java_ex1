@@ -1,4 +1,4 @@
-public class Horse implements IAnimal {
+public class Horse extends Animal implements IAnimal {
 
     @Override
     public void sayName() {
@@ -12,6 +12,12 @@ public class Horse implements IAnimal {
             return 15;
         }
         return 0;
+    }
+
+    @Override
+    void sayHello() {
+        System.out.println("Horse perii Animal luokan");
+        
     }
     
 }
