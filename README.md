@@ -18,4 +18,9 @@ kts. Cat.java ja Dog.java
 ### Abstrakti metodi 
 
 Luokassa vain metodin esittely, mutta ei toteutusta. Perivän luokan tulee
-toteuttaa abstraktit metodit
+toteuttaa abstraktit metodit.
+
+## Interface luokka
+
+Luokka, jonka kaikki metodit ovat automaattisesti Abstrakteja. <br>
+kts. IAnimal.java ja Horse.java

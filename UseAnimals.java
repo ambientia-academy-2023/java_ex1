@@ -10,5 +10,11 @@ public class UseAnimals {
         objectCat.sayHello();
         objectDog.sayHello();
         System.out.println("Koiran omistaja = "+objectDog.getOwner());
+
+        Horse objectHorse=new Horse();
+        objectHorse.sayName();
+        int test=objectHorse.sayAge("Hepo");
+        System.out.println("Hevosen ikä = "+test);
+
       }  
 }
