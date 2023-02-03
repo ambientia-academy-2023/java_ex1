@@ -8,10 +8,12 @@ Luokka, josta ei voi tehdä oliota vaan sitä käytetään yliluokkana jollekin 
 
 Kantaluokka
 Animal (abstrakti luokka)
-siihen laitetaan eläimille yhteisiä ominaisuuksia
+siihen laitetaan eläimille yhteisiä ominaisuuksia <br>
+kts. Animal.java
 
 Luokat Cat ja Dog perivät Animal-luokan
-ja niillä kummallakin voi olla omia erityisominaisuuksiaan
+ja niillä kummallakin voi olla omia erityisominaisuuksiaan<br>
+kts. Cat.java ja Dog.java
 
 ### Abstrakti metodi 
 
